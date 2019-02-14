@@ -4,4 +4,5 @@ def my_each(num)
   i = 0 
   while i < num.length
     yield(num[i])
-  
+  i += 1
+end
